@@ -1,0 +1,57 @@
+img {
+    width: 25%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+
+
+
+.words {
+    position: relative;
+    animation: move-words 10s linear infinite;
+    margin: 5;
+    color: blue;
+    padding: 30px;
+
+
+
+}
+
+.p1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.p2 {
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes move-words {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 75%;
+    }
+}
